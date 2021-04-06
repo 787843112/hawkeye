@@ -1,0 +1,55 @@
+#screening {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#screening .screening-div {
+  margin-left: 200px;
+  height: 100%;
+}
+
+#screening .screening-header {
+  height: 80px;
+  min-width: 1215px;
+  background-color: rgb(177, 239, 241);
+  overflow: hidden;
+}
+
+#screening .screening-header .el-input-group__prepend {
+  padding: 0;
+  font-size: 25px;
+  color: #000;
+}
+
+#screening .screening-body {
+  height: 100%;
+  width: 100%;
+}
+
+.screening-list .el-table--scrollable-x .el-table__body-wrapper {
+  overflow-x: hidden;
+}
+
+.screeningtable {
+  width: 100%;
+}
+
+.screening-footer {
+  text-align: center;
+  height: 32px;
+  width: 90%;
+}
+
+.add-screening-dialog .el-dialog {
+  width: 600px;
+}
+
+.add-screening-dialog .el-dialog__header {
+  text-align: center;
+}
+
+.add-screening-dialog .el-dialog__header > span {
+  font-size: 30px;
+}

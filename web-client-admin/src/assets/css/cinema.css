@@ -1,0 +1,60 @@
+#cinema {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#cinema .cinema-div {
+  margin-left: 200px;
+  height: 100%;
+}
+
+#cinema .cinema-header {
+  height: 80px;
+  min-width: 800px;
+  background-color: rgb(150, 178, 230);
+  overflow: hidden;
+}
+
+#cinema .search-cinema-name {
+  margin-top: 20px;
+  margin-left: 2%;
+  width: 20%;
+}
+
+.cinema-body {
+  height: 100%;
+  width: 100%;
+}
+
+.cinema-list .el-table--scrollable-x .el-table__body-wrapper {
+  overflow-x: hidden;
+}
+
+.cinematable {
+  width: 100%;
+}
+
+.cinema-footer {
+  text-align: center;
+  height: 32px;
+  width: 90%;
+}
+
+.add-cinema-dialog .el-dialog {
+  width: 500px;
+}
+
+.add-cinema-dialog .el-textarea > textarea {
+  height: 50px;
+  max-height: 150px;
+}
+
+.add-cinema-dialog .el-dialog__header {
+  text-align: center;
+}
+
+.add-cinema-dialog .el-dialog__header > span {
+  font-size: 30px;
+}

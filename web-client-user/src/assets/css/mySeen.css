@@ -1,0 +1,57 @@
+#mySeen .mySeen-header {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#mySeen .seen-list-div {
+  margin-top: 40px;
+}
+
+#mySeen .seen-cell {
+  height: 120px;
+  margin-top: 10px;
+}
+
+#mySeen .seen-cell-movie-info {
+  height: 120px;
+}
+
+#mySeen .movie-info-img {
+  height: 120px;
+  width: 90px;
+  float: left;
+  margin-left: 15px;
+}
+
+#mySeen .movie-info-img > img {
+  height: 120px;
+  width: 90px;
+}
+
+#mySeen .movie-info-div {
+  height: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#mySeen .movie-info-div > b {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+#mySeen .movie-info-div > p {
+  margin-left: 10px;
+  margin-top: 5px;
+  color: grey;
+}
+
+#mySeen .score-info-div {
+  margin-top: 15px;
+  height: 45px;
+  background: rgb(235, 235, 235);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

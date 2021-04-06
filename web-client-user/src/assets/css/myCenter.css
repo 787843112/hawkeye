@@ -1,0 +1,42 @@
+#myCenter .myCenter-header {
+  position: relative;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+#myCenter .myCenter-header h1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: rgb(84, 157, 240);
+  text-align: center;
+  margin-top: 0;
+  -webkit-box-flex: 1;
+}
+
+#myCenter .UserAvatar {
+  text-align: center;
+  overflow: hidden;
+  height: 150px;
+  background: rgba(83, 172, 255, 0.5);
+}
+
+#myCenter .UserAvatar p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#myCenter .grid {
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+#myCenter .logout {
+  width: 90%;
+  position: relative;
+  margin-bottom: 60px;
+  margin-left: 5%;
+}

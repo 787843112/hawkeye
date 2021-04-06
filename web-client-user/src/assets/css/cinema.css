@@ -1,0 +1,48 @@
+#cinema .cinema-tab {
+  height: 44px;
+  text-align: center;
+  overflow: hidden;
+  background: #fff;
+}
+
+#cinema .cinema-tab-row {
+  height: 44px;
+}
+
+#cinema .cinema-tab-row > div {
+  height: 44px;
+}
+
+#cinema .search {
+  display: flex;
+  margin-top: 7px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 28px;
+  font-size: 13px;
+  color: grey;
+  margin-left: 18px;
+  border: 0.5px solid #e6e6e6;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+#cinema .search > span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#cinema .cinema-list {
+  margin-top: 44px;
+  width: 100%;
+}
+
+#cinema .cinema-cell {
+  width: 95%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

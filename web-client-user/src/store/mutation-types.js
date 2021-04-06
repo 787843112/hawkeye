@@ -1,0 +1,15 @@
+//export const RECEIVE_CITY_INFO = 'receive_city_info'    //接收定位到的城市
+export const RECEIVE_CITY = 'receive_city' //接收所选城市
+export const RECEIVE_USER_INFO = 'receive_user_info' //接收用户信息
+export const RESET_USER_INFO = 'reset_user_info' //重置用户信息
+export const RECEIVE_MOVIE_INFO = 'receive_movie_info' //接收电影信息
+export const RECEIVE_ORDER_INFO = 'receive_order_info' //接收订单信息
+export const RECEIVE_SEEN_INFO = 'receive_seen_info' //接收看过信息
+export const RECEIVE_MOVIE_LIST = 'receive_movie_list' //记录已经获取到的电影列表
+export const RECEIVE_CINEMA_INFO = 'receive_cinema_info' //接收影院信息
+export const RECEIVE_BACK_PATH = 'receive_back_path' //接收返回的路径
+export const RECEIVE_SELECT_DATE = 'receive_select_date' //接收所选的日期
+export const RECEIVE_SCREENING = 'receive_screening' //接收所选的场次信息
+export const RECEIVE_HALL_INFO = 'receive_hall_info' //接收所选场次的影厅信息
+export const RECEIVE_SEAT_STATUS = 'receive_seat_status' //接收所选场次的座位状态
+export const RECEIVE_SELECT_SEAT = 'receive_select_seat' //接收所选座位

@@ -1,0 +1,49 @@
+#myWant .myWant-header {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#myWant .want-list-div {
+  margin-top: 50px;
+}
+
+#myWant .want-cell {
+  height: 100px;
+  margin-top: 10px;
+}
+
+#myWant .want-cell-movie-info {
+  height: 100px;
+}
+
+#myWant .movie-info-img {
+  height: 100px;
+  width: 75px;
+  float: left;
+  margin-left: 15px;
+}
+
+#myWant .movie-info-img > img {
+  height: 100px;
+  width: 75px;
+}
+
+#myWant #movie-info-div {
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#myWant #movie-info-div > b {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#myWant #movie-info-div > p {
+  height: 21px;
+  margin-left: 10px;
+  margin-top: 3px;
+  color: grey;
+}

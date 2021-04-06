@@ -1,0 +1,61 @@
+#hall {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#hall .hall-div {
+  margin-left: 200px;
+  height: 100%;
+}
+
+#hall .hall-header {
+  height: 80px;
+  min-width: 1000px;
+  background-color: rgb(51, 72, 112);
+  overflow: hidden;
+}
+
+#hall .hall-header .el-input-group__prepend {
+  padding: 0;
+  font-size: 25px;
+  color: #000;
+}
+
+#hall .search-hall-name {
+  margin-top: 20px;
+  margin-left: 2%;
+  width: 20%;
+}
+
+#hall .hall-body {
+  height: 100%;
+  width: 100%;
+}
+
+.hall-list .el-table--scrollable-x .el-table__body-wrapper {
+  overflow-x: hidden;
+}
+
+.halltable {
+  width: 100%;
+}
+
+.hall-footer {
+  text-align: center;
+  height: 32px;
+  width: 90%;
+}
+
+.add-hall-dialog .el-dialog {
+  width: 500px;
+}
+
+.add-hall-dialog .el-dialog__header {
+  text-align: center;
+}
+
+.add-hall-dialog .el-dialog__header > span {
+  font-size: 30px;
+}

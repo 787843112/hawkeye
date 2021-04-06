@@ -1,0 +1,71 @@
+.login-div {
+  position: absolute;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/background.jpg');
+}
+.card-box {
+  opacity: 0.8;
+  width: 300px;
+  height: 350px;
+  margin-top: 10%;
+  margin-left: 10%;
+  background-color: #2a4b5a;
+  text-align: center;
+}
+
+.input-box {
+  height: 210px;
+}
+.login-input > div {
+  margin-top: 10px;
+}
+
+.register-input > div {
+  margin-top: 10px;
+}
+
+.button-group button {
+  width: 125px;
+}
+.button-group button span {
+  font-size: 20px;
+  color: #000;
+}
+
+.calendar-box {
+  height: 0;
+  position: absolute;
+  top: 10%;
+  left: 55%;
+}
+
+.calendar-box thead {
+  background: rgb(197, 181, 87);
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.calendar-box .el-calendar__title {
+  font-size: 30px;
+  color: rgb(223, 28, 28);
+}
+
+.calendar-box table {
+  height: 300px;
+}
+
+.calendar-box .el-calendar__body {
+  width: 400px;
+}
+
+.el-calendar-table .el-calendar-day {
+  height: 50px;
+  text-align: center;
+}
+
+.el-calendar-table .el-calendar-day span {
+  font-size: 25px;
+}

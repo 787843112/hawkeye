@@ -1,0 +1,131 @@
+#seat {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#seat .seat-div {
+  margin-left: 200px;
+  height: 100%;
+}
+
+#seat .seat-header {
+  height: 80px;
+  min-width: 1200px;
+  background-color: rgb(127, 158, 218);
+  overflow: hidden;
+}
+
+#seat .seat-header .el-input-group__prepend {
+  padding: 0;
+  font-size: 25px;
+  color: #000;
+}
+
+#seat .seat-body {
+  height: 100%;
+  width: 100%;
+}
+
+#seat .seat-rowNumber {
+  margin-top: 50px;
+  position: relative;
+  float: left;
+  background-color: gray;
+  width: 20px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+#seat .seat-rowNumber tr {
+  height: 50px;
+}
+
+#seat .illustration {
+  text-align: center;
+  height: 50px;
+  width: 100%;
+}
+
+#seat .seat-scrn {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+}
+
+#seat .screen-center {
+  position: relative;
+  width: 100%;
+  top: 70px;
+}
+
+#seat .mid-line {
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  height: 800px;
+  border-left: 1px dashed #919191;
+}
+
+#seat .illustration-img-wrapper {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  transform: translateY(-50%);
+  margin-left: 10px;
+}
+
+#seat .illustration-text {
+  display: inline-block;
+  height: 100%;
+  line-height: 40px;
+  font-size: 25px;
+  position: relative;
+  top: -5px;
+}
+
+#seat .seat-grid {
+  text-align: center;
+  width: 100%;
+  height: 80%;
+  overflow: scroll;
+}
+
+#seat .inner-seat-wrapper {
+  margin-top: 50px;
+  overflow: scroll;
+}
+
+#seat .inner-seat-wrapper div {
+  height: 50px;
+  overflow: hidden;
+}
+
+#seat .inner-seat-wrapper .seat {
+  height: 40px;
+  margin-top: 5px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+#seat .inner-seat-wrapper .seat div {
+  width: 40px;
+  height: 40px;
+}
+
+.white-seat {
+  background: url('../images/whiteSeat.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+.red-seat {
+  background: url('../images/redSeat.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+.green-seat {
+  background: url('../images/greenSeat.png') center center no-repeat;
+  background-size: 100% 100%;
+}

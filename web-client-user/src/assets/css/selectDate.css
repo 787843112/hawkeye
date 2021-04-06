@@ -1,0 +1,11 @@
+#selectDate .van-tab > span {
+  width: 90px;
+}
+
+#selectDate .van-tab--active span {
+  color: #f03a2c;
+}
+
+#selectDate .van-tab--complete {
+  text-align: center;
+}

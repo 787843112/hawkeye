@@ -1,0 +1,69 @@
+#myOrder .order-list-div {
+  height: 100%;
+  margin-top: 40px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+#myOrder .order-cell-left {
+  float: left;
+  width: 50px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#myOrder .order-cell-left > div {
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  margin-top: 60px;
+  background: #979191;
+}
+
+#myOrder .order-cell-mid {
+  float: left;
+  width: 2px;
+  height: 130px;
+  margin-top: 10px;
+  border-left: 2px dashed #919191;
+}
+
+#myOrder .order-info-div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: -2px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#myOrder .order-info-movie-name {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#myOrder .order-info-movie-name > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#myOrder .order-info-date {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+#myOrder .order-info-cinema-name {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+#myOrder .order-button {
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 20px;
+}

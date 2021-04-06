@@ -1,0 +1,50 @@
+#admin {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#admin .admin-div {
+  margin-left: 200px;
+  height: 100%;
+}
+
+#admin .admin-div .el-tabs__item {
+  font-size: 20px;
+}
+
+.admin-body {
+  height: 100%;
+  width: 100%;
+}
+
+.admin-list .el-table--scrollable-x .el-table__body-wrapper {
+  overflow-x: hidden;
+}
+
+.admintable {
+  width: 100%;
+}
+
+.admin-div .el-tabs--border-card>.el-tabs__content {
+    padding: 0;
+}
+
+.admin-footer {
+  text-align: center;
+  height: 32px;
+  width: 80%;
+}
+
+.add-admin-dialog .el-dialog {
+  width: 400px;
+}
+
+.add-admin-dialog .el-dialog__header {
+  text-align: center;
+}
+
+.add-admin-dialog .el-dialog__header > span {
+  font-size: 30px;
+}

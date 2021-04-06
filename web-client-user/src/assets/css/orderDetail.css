@@ -1,0 +1,98 @@
+#orderDetail .order-detail-header {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#orderDetail .order-detail-body {
+  height: 100%;
+  width: 100%;
+  background: #14b4b4;
+  margin-top: 46px;
+}
+
+#orderDetail .order-movie-status {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#orderDetail .order-movie-status > b {
+  font-size: 22px;
+  color: #fff;
+}
+
+#orderDetail .order-detail-info {
+  border-radius: 15px;
+  width: 90%;
+  background: #fff;
+  margin: 30px auto;
+  max-width: 370px;
+  min-width: 330px;
+}
+
+#orderDetail .order-movie-info {
+  padding-top: 20px;
+  min-width: 330px;
+}
+
+#orderDetail .order-movie-info-rigth {
+  margin-left: 10px;
+  max-width: 250px;
+  width: 67%;
+  float: left;
+}
+
+#orderDetail .order-movie-info-img {
+  width: 75px;
+  height: 100px;
+  overflow: hidden;
+  float: right;
+  margin-right: 20px;
+}
+
+#orderDetail .order-movie-info-img > img {
+  width: 75px;
+  height: 100px;
+}
+
+#orderDetail .cinema-info > b {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#orderDetail .cinema-info > p {
+  font-size: 15px;
+  color: grey;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#orderDetail .order-info > b {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+#orderDetail .order-info > p {
+  font-size: 15px;
+  color: grey;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+#orderDetail .order-notice > b {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+#orderDetail .order-notice > p {
+  font-size: 15px;
+  color: grey;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+#orderDetail .order-detail-button {
+  height: 35px;
+  margin-top: 20px;
+  text-align: center;
+}

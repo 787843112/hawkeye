@@ -1,0 +1,182 @@
+#selectSeat .van-nav-bar__title {
+  max-width: 80%;
+}
+
+#selectSeat .seat-movie-info {
+  position: relative;
+  overflow: hidden;
+  margin-top: 46px;
+  margin-left: 5px;
+  width: 90%;
+  height: 50px;
+  padding: 15px 15px 15px 15px;
+}
+
+#selectSeat .movie-name {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  overflow: hidden;
+  color: #333;
+}
+
+#selectSeat .start-time {
+  margin-top: 2px;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 19px;
+  color: #7b7b7b;
+}
+
+#selectSeat .seat-body {
+  max-height: 400px;
+  width: 100%;
+  overflow: scroll;
+}
+
+#selectSeat .screen-center {
+  position: relative;
+  top: -20px;
+}
+
+#selectSeat .screen-center > .mid-line {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  border-left: 2px dashed #919191;
+}
+
+#selectSeat .seat-scrn {
+  text-align: center;
+  height: 40px;
+}
+
+#selectSeat .moviehall-name {
+  background-color: #e3e3e3;
+  margin-left: 25%;
+  border-radius: 0 0 30px 30px;
+  overflow: hidden;
+  width: 50%;
+}
+
+#selectSeat .seat-grid {
+  margin-top: 10px;
+}
+
+#selectSeat .seat-rowNumber {
+  position: relative;
+  float: left;
+  background-color: gray;
+  width: 18px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#selectSeat .seat-rowNumber > tr {
+  height: 35px;
+}
+
+#selectSeat .inner-seat-wrapper > div {
+  height: 35px;
+}
+
+#selectSeat .inner-seat-wrapper .seat {
+  height: 35px;
+  width: 35px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#selectSeat .inner-seat {
+  cursor: pointer;
+}
+
+#selectSeat .inner-seat-wrapper .seat > div {
+  width: 35px;
+  height: 35px;
+}
+
+#selectSeat .illustration {
+  min-width: 330px;
+  height: 55px;
+  text-align: center;
+}
+
+#selectSeat .illustration-img-wrapper {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+#selectSeat .illustration-text {
+  font-size: 20px;
+  bottom: 10px;
+  width: 75px;
+  text-align: left;
+  position: relative;
+  display: inline-block;
+}
+
+#selectSeat .select-seat-div {
+  margin-top: 10px;
+}
+
+#selectSeat .seat-info-tab {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  width: unset;
+}
+
+#selectSeat .seat-button {
+  margin-top: 20px;
+}
+
+#selectSeat .selectSeat-button-1 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#selectSeat .selectSeat-button-1 > span {
+  width: 70%;
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#selectSeat .selectSeat-button-2 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#selectSeat .selectSeat-button-2 > i {
+  font-size: 30px;
+}
+
+#selectSeat .selectSeat-button-2 > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#selectSeat .selectSeat-button-2 > span > i {
+  font-size: 30px;
+}
+
+#selectSeat .white-seat {
+  background: url('../images/whiteSeat.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+#selectSeat .red-seat {
+  background: url('../images/redSeat.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+#selectSeat .green-seat {
+  background: url('../images/greenSeat.png') center center no-repeat;
+  background-size: 100% 100%;
+}

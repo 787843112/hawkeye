@@ -1,0 +1,36 @@
+#login > .headLogo {
+  text-align: center;
+  overflow: hidden;
+  height: 150px;
+  background: rgb(240, 240, 240);
+}
+
+#login > .login-box {
+  position: relative;
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 20px;
+}
+
+#login .login-box > p {
+  margin-top: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  float: right;
+}
+
+#login .register-box {
+  position: relative;
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 20px;
+}
+
+#login .register-box > p {
+  margin-top: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  float: right;
+}

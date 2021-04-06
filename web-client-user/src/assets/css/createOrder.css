@@ -1,0 +1,44 @@
+#createOrder .movie-info-p {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#createOrder .select-time-p {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: red;
+}
+
+#createOrder .cinema-info-p {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+#createOrder .seat-info-tab {
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 15px;
+  width: unset;
+}
+
+#createOrder .create-order-button {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#createOrder .create-order-button > i {
+  font-size: 30px;
+}
+
+#createOrder .create-order-button > span {
+  width: 50%;
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#createOrder .create-order-button > span > i {
+  font-size: 30px;
+}

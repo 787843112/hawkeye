@@ -1,0 +1,114 @@
+#movie .movie-tab {
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+#movie .movie-tab .van-tab--active > span {
+  color: #f03a2c;
+}
+
+#movie .movie-tab-search {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#movie .movie-list {
+  margin-top: 44px;
+  width: 100%;
+}
+
+#movie .movie-cell > .movie-img {
+  float: left;
+}
+
+#movie .movie-cell > .movie-img > img {
+  height: 95px;
+  width: 70px;
+}
+
+#movie .movie-cell > .movie-info {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin-left: 90px;
+}
+
+#movie .movie-info > .movie-info_2 {
+  overflow: hidden;
+  margin-right: 60px;
+}
+
+#movie .movie-info > .movie-info_2 > h2 {
+  width: 80%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#movie .movie-info > .movie-info_2 > h4 {
+  width: 70%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#movie .movie-info > .button-block {
+  position: absolute;
+  right: 100px;
+  bottom: 40px;
+}
+
+#movie .button-block-want {
+  position: absolute;
+  right: 10px;
+  bottom: 40px;
+}
+
+#movie .button-block_2 {
+  width: 47px;
+  height: 27px;
+  line-height: 28px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #f03a2c;
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#movie .button-block-want_2 {
+  width: 47px;
+  height: 27px;
+  line-height: 28px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #faaf00;
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#movie .button-block-want_1 {
+  width: 47px;
+  height: 27px;
+  line-height: 28px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #f05abe;
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#movie .fix {
+  text-align: center;
+  white-space: nowrap;
+  font-size: 12px;
+}

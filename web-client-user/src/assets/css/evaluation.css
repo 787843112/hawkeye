@@ -1,0 +1,22 @@
+#evaluation .evaluation-header {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#evaluation .update-evaluation-button {
+  font-size: 20px;
+  color: #cf33cf;
+}
+
+#evaluation .evaluation-score {
+  height: 180px;
+}
+
+#evaluation .evaluation-score-stars {
+  text-align: center;
+}
+
+#evaluation .show-text-span {
+  margin-left: 32px;
+}

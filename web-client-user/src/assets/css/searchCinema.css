@@ -1,0 +1,11 @@
+#searchCinema .searchCinema-list {
+  margin-top: 44px;
+  width: 100%;
+}
+
+#searchCinema .searchCinema-cell {
+  width: 95%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
